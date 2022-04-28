@@ -1,0 +1,23 @@
+{
+  "author": "Ale Muñoz",
+  "commands": [
+    {
+      "script": "script.js",
+      "name": "Reveal Local Cache",
+      "handlers": {
+        "run": "onRun"
+      },
+      "identifier": "com.sketch.reveal-local-cache"
+    }
+  ],
+  "menu": {
+    "title": "Reveal Local Cache",
+    "isRoot": true,
+    "items": ["com.sketch.reveal-local-cache"]
+  },
+  "identifier": "com.sketch.plugin.reveal-local-cache",
+  "version": "1.0",
+  "description": "Reveals the local cache of the current document",
+  "authorEmail": "ale@sketch.com",
+  "name": "Reveal Local Cache"
+}
